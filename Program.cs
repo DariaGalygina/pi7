@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace pi
 {
-    internal class Program
+    public class Program
     {
-        static bool IsPrime(int number)
+        public static bool IsPrime(int number)
         {
             if (number <= 1)
             {
